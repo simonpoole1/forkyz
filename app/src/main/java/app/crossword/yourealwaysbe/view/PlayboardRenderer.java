@@ -480,10 +480,10 @@ public class PlayboardRenderer {
                                 noteText);
                     }
                 } else if (noteStringAcross != null) {
-                    // Across scratch letter only - display in bottom left
+                    // Across scratch letter only - display in bottom right
                     noteText.setTextSize(noteTextSize);
                     canvas.drawText(noteStringAcross,
-                            x + (boxSize / 2),
+                            x + (int)(boxSize - letterTextHalfWidth),
                             y + (boxSize * 9 / 10),
                             noteText);
                 } else if (noteStringDown != null) {
@@ -491,7 +491,7 @@ public class PlayboardRenderer {
                     noteText.setTextSize(noteTextSize);
                     canvas.drawText(noteStringDown,
                             x + (int)(boxSize - letterTextHalfWidth),
-                            y + (boxSize - noteText.ascent())  / 2,
+                            y + (boxSize * 9 / 10),
                             noteText);
                 }
             }
