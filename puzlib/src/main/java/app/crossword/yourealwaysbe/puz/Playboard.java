@@ -546,21 +546,22 @@ public class Playboard implements Serializable {
     }
 
     public void deleteScratchLetter() {
-        Box currentBox = this.getCurrentBox();
-
         pushNotificationDisabled();
 
-        if (currentBox.isBlank()) {
-            Note note = this.getNote();
-            if (note != null) {
-                int pos = this.across ? currentBox.getAcrossPosition() : currentBox.getDownPosition();
-                String response = this.getCurrentWordResponse();
-                if (pos >= 0 && pos < response.length())
-                    note.deleteScratchLetterAt(pos);
-            }
+        Box currentBox = this.getCurrentBox();
+        Note note = this.getNote();
+        int pos = this.across ? currentBox.getAcrossPosition() : currentBox.getDownPosition();
+
+        if (!currentBox.isBlank() || note == null || !note.hasScratchLetterAt(pos)) {
+            this.previousLetter();
+            currentBox = this.getCurrentBox();
+            note = this.getNote();
+            pos = this.across ? currentBox.getAcrossPosition() : currentBox.getDownPosition();
         }
 
-        this.previousLetter();
+        if (currentBox.isBlank() && note != null && note.hasScratchLetterAt(pos)) {
+            note.deleteScratchLetterAt(pos);
+        }
 
         popNotificationDisabled();
         notifyChange();

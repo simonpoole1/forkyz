@@ -131,6 +131,17 @@ public class Note implements Serializable {
         scratch = newScratchText;
     }
 
+    public boolean hasScratchLetterAt(int pos) {
+        if (scratch == null) return false;
+
+        if (pos >= scratch.length()) return false;
+
+        char c = scratch.charAt(pos);
+        if (c == Box.BLANK) return false;
+
+        return true;
+    }
+
     public void deleteScratchLetterAt(int pos) {
         setScratchLetter(pos, Box.BLANK);
     }
