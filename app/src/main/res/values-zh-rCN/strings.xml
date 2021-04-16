@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="puzzle_select">选择一个字谜：</string>
+    <string name="action_settings">设置</string>
+    <string name="skip_button">跳过</string>
+    <string name="done_button">完成</string>
+    <string name="across">横向字谜</string>
+    <string name="down">纵向字谜</string>
+    <string name="anagram_source_lab">Anagram remaining letters:</string>
+    <string name="anagram_solution_lab">易位构词解决方案：</string>
+    <string name="board_lab">游戏板：</string>
+    <string name="scratch_lab">草稿：</string>
+    <string name="notes_lab">注解：</string>
+    <string name="tap_to_show_full_notes">轻按显示完整注解</string>
+    <string name="tap_to_hide_full_notes">轻按隐藏完整注解</string>
+    <string name="please_wait">请等待...</string>
+    <string name="copy_conflict">复制冲突</string>
+    <string name="transfer_overwrite_warning">传输响应与现有条目相抵触。不论如何都要覆盖吗？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="reveal_puzzle">揭晓全部字谜</string>
+    <string name="are_you_sure">你确定吗？</string>
+    <string name="ok">好</string>
+    <string name="cancel">取消</string>
+    <string name="elapsed_time">经过时间：%1$s</string>
+    <string name="allow_permissions">允许权限</string>
+    <string name="please_allow_storage">出现提示时，请允许写入存储。Forkyz 需要这个权限来存储下载的纵横字谜文件，没有这个权限应用不能正常工作。</string>
+    <string name="download_notification_channel_name">下载</string>
+    <string name="download_notification_channel_desc">已下载字谜的通知</string>
+    <string name="online">在线</string>
+    <string name="dummy_x">X</string>
+    <string name="preview">预览</string>
+
+    <!-- preferences -->
+    <string name="select_sources">选择字谜源</string>
+    <string name="daily_crosswords">每日纵横字谜</string>
+    <string name="daily_crosswords_desc">每天更新的字谜</string>
+    <string name="weekly_crosswords">每周纵横字谜</string>
+    <string name="weekly_crosswords_desc">每周更新的字谜</string>
+    <string name="experimental_sources">实验性的源</string>
+    <string name="experimental_sources_desc">无法保证是否能正常运作</string>
+    <string name="application_settings">程序设置</string>
+    <string name="fit_screen_start">启动时适应屏幕</string>
+    <string name="fit_screen_start_desc">启动时调整游戏板到最适合屏幕的尺寸</string>
+    <string name="automatic_download">自动下载</string>
+    <string name="automatic_download_desc">启动程序时下载今日字谜</string>
+    <string name="background_download">在后台下载新字谜</string>
+    <string name="background_download_desc">定期在后台下载新字谜，即使当 Forkyz 未被使用。</string>
+    <string name="background_download_opts">后台下载选项</string>
+    <string name="background_download_opts_desc">配置后台下载</string>
+    <string name="no_download_notifs">无下载通知</string>
+    <string name="no_download_notifs_desc">防止每个已下载字谜的通知出现在通知列表中</string>
+    <string name="no_hint_highlighting">无提示高亮</string>
+    <string name="no_hint_highlighting_desc">防止出现以揭秘或显示错误形式表明 \'提示\' 的粉色方框 </string>
+    <string name="delete_on_cleanup">清理时删除</string>
+    <string name="delete_on_cleanup_desc">删除而非存档旧字谜</string>
+    <string name="cleanup_unfinished">清理未完成的字谜</string>
+    <string name="cleanup_unfinished_desc">确定未完成字谜在被归档/删除前存在的时长。</string>
+    <string name="cleanup_archives">清理存档</string>
+    <string name="cleanup_archives_desc">确定归档字谜在被删除之前存在的时长</string>
+    <string name="keyboard_showhide">显示/隐藏应用内键盘</string>
+    <string name="keyboard_showhide_desc">应用内键盘的显示/隐藏行为</string>
+    <string name="snap_current">对齐到当前单词</string>
+    <string name="snap_current_desc">是否要自动滚动游戏板到当前游戏位置</string>
+    <string name="show_length">显示长度</string>
+    <string name="show_length_desc">在线索线上显示答案中的字母数</string>
+    <string name="scroll_to_clue">滚动到线索</string>
+    <string name="scroll_to_clue_desc">是否要自动滚动到线索列表中选定的线索。 (像 Forkyz 1 版本那样)</string>
+    <string name="movement_style">移动样式</string>
+    <string name="movement_style_desc">选择当你键过词尾时会发生什么。</string>
+    <string name="skip_filled">跳过已填充的方框</string>
+    <string name="skip_filled_desc">输入新字母时是否要跳过已填充的方框</string>
+    <string name="preserve_correct">显示错误时保留正确的方框</string>
+    <string name="preserve_correct_desc">防止你覆盖正确的方框，当你处于\'显示错误\' 模式时。</string>
+    <string name="space_change_dir">空格键更改方向</string>
+    <string name="space_change_dir_desc">空格键改变方向，而不是清空方框。</string>
+    <string name="enter_changes_direction">Enter 键更改方向</string>
+    <string name="enter_changes_direction_desc">Enter 键改变方向而非移动到下一条线索</string>
+    <string name="double_tap_zoom">双击缩放</string>
+    <string name="double_tap_zoom_desc">双击在适合屏幕和你的默认缩放之间进行切换。</string>
+    <string name="show_timer">显示计时器</string>
+    <string name="show_timer_desc">显示你的字谜时间。\n你必须离开并重新输入一个字谜来应用更改。</string>
+    <string name="full_screen">全屏</string>
+    <string name="full_screen_desc">隐藏通知栏。\n你必须离开并重新输入一个字谜来应用更改。</string>
+    <string name="orientation_lock">屏幕方向锁</string>
+    <string name="orientation_lock_desc">锁定屏幕方向</string>
+    <string name="disable_swipe">禁止滑动</string>
+    <string name="disable_swipe_desc">在列表视图上禁用滑动来取消。</string>
+    <string name="swipe_action">滑动操作</string>
+    <string name="swipe_action_desc">选择删除或存档</string>
+    <string name="display_scratch">显示草稿</string>
+    <string name="display_scratch_desc">在游戏板上显示草稿。</string>
+    <string name="dont_delete_crossing">不要删除纵横字谜</string>
+    <string name="dont_delete_crossing_desc">删除时，不要删除一个字母，如果它是一个已填写字谜的一部分</string>
+    <string name="about_forkyz">关于 Forkyz</string>
+    <string name="release_notes">发行日志</string>
+    <string name="license">许可证</string>
+
+    <!-- preferences download -->
+    <string name="download_wifi_only">仅通过 Wifi 下载</string>
+    <string name="download_wifi_only_desc_on">仅在 Wifi 可用时才安排后台下载。</string>
+    <string name="download_wifi_only_desc_off">即使没有 Wifi 也安排后台下载</string>
+    <string name="download_roaming">漫游时下载</string>
+    <string name="download_roaming_desc_on">漫游时安排后台下载</string>
+    <string name="download_roaming_desc_off">漫游时不要安排后台下载</string>
+    <string name="download_charging">仅在充电时下载</string>
+    <string name="download_charging_desc_on">仅在充电时安排后台下载</string>
+    <string name="download_charging_desc_off">使用手机电池时安排后台下载</string>
+
+    <!-- preferences daily -->
+    <string name="updates_mon_fri">周一到周五更新</string>
+    <string name="updates_mon_sat">周一到周六更新</string>
+    <string name="guardian_daily">《卫报》每日字谜</string>
+    <string name="independent_daily">《独立报》每日字谜</string>
+    <string name="newsday">《新闻日报》</string>
+    <string name="joseph_crosswords">Joseph Crosswords</string>
+    <string name="lat_crosswords">《洛杉矶时报》</string>
+    <string name="sheffer_crosswords">Sheffer Crosswords</string>
+    <string name="thinks_com">Thinks.com</string>
+    <string name="universal_crossword">Universal Crossword</string>
+    <string name="usa_today">《今日美国》</string>
+
+    <!-- preferences weekly -->
+    <string name="updates_fridays">周五更新</string>
+    <string name="updates_fridays_biweekly">周五更新 (当前每两周一次)</string>
+    <string name="updates_thursdays">周四更新</string>
+    <string name="updates_sundays">周日更新</string>
+    <string name="regular_sized">正常尺寸</string>
+    <string name="large_sized">大尺寸</string>
+    <string name="ink_well">Ink Well</string>
+    <string name="jonesin_crosswords">Jonesin\' Crosswords</string>
+    <string name="washington_post_puzzler">《华盛顿邮报》字谜</string>
+    <string name="chron_of_higher_ed">《高等教育纪事报》</string>
+    <string name="lat_sunday_calendar">《洛杉矶时报》周日日历</string>
+    <string name="premier_crosswords">Premier Crosswords</string>
+    <string name="wall_street_journal">《华尔街日报》</string>
+
+    <!--  preferences experimental -->
+    <string name="cru_puzzle_workshop">Cru 字谜工坊</string>
+    <string name="cru_puzzle_workshop_desc">《纽约时报》 Cru Cryptic Fan Puzzles\nhttp://web.me.com/joecab/nytcru/\n(请阅读下方的帮助条目)</string>
+    <string name="keglars_cryptics">Kegler\'s Kryptics</string>
+    <string name="keglars_cryptics_desc">Ron &quot;Kegler&quot; Sweet\'s Cryptic 存档\nhttp://www.lafn.org/~keglerron/kegler.html\n(请阅读下方的帮助条目)</string>
+    <string name="about_scrapes">关于这些源</string>
+
+    <!-- menus general -->
+    <string name="help">帮助</string>
+    <string name="settings">设置</string>
+    <string name="notes">注解</string>
+
+    <!-- play menu -->
+    <string name="clues">线索</string>
+    <string name="zoom">缩放</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_in_max">放到最大</string>
+    <string name="zoom_out">缩小</string>
+    <string name="fit_to_screen">适合屏幕</string>
+    <string name="zoom_reset">缩放重置</string>
+    <string name="clue_text_size">线索文本尺寸</string>
+    <string name="small">小</string>
+    <string name="medium">中</string>
+    <string name="large">大</string>
+    <string name="show_errors">显示错误</string>
+    <string name="scratch_mode">草稿模式</string>
+    <string name="reveal">揭晓</string>
+    <string name="letter">字母</string>
+    <string name="word">单词</string>
+    <string name="errors">错误</string>
+    <string name="puzzle">完整字谜</string>
+    <string name="info">信息</string>
+
+    <!-- browse menu -->
+    <string name="app_theme">程序主题</string>
+    <string name="sort">排序</string>
+    <string name="by_date_desc">按日期 (降序)</string>
+    <string name="by_date_asc">按日期 (升序)</string>
+    <string name="by_source">按来源</string>
+    <string name="cleanup">清理</string>
+    <string name="archives">存档</string>
+
+    <!-- web browser view -->
+    <string name="close_browser">关闭浏览器</string>
+
+    <!-- puzzle list item -->
+    <string name="puzzle_date">字谜日期</string>
+    <string name="puzzle_name">字谜名称</string>
+    <string name="caption_text">标题文本</string>
+
+    <!-- puzzle info dialog -->
+    <string name="puzzle_title">字谜标题</string>
+    <string name="by_author">按作者</string>
+    <string name="copyright_info">版权信息</string>
+    <string name="elapsed_time_labelled_dummy">经过时间: X:XX</string>
+    <string name="puzzle_notes">字谜注解</string>
+
+    <!-- completed -->
+    <string name="completed_in">花费时间</string>
+    <string name="elapsed_time_dummy">XX:XX:XX</string>
+    <string name="total_clues">线索总数</string>
+    <string name="dummy_xx">XX</string>
+    <string name="total_boxes">方框总数</string>
+    <string name="hinted_boxes">提示的方框数</string>
+    <string name="dummy_xx_w_pcnt">XX (XX%)</string>
+    <string name="share">分享</string>
+    <string name="done">完成</string>
+
+    <!-- manifest -->
+    <string name="app_name">Forkyz</string>
+    <string name="download_label">下载到 Forkyz</string>
+    <string name="settings_label">设置</string>
+    <string name="clues_list_label">线索</string>
+    <string name="notes_label">注解</string>
+    <string name="html_label">Forkyz</string>
+    <string name="web_browse_label">浏览字谜</string>
+    <string name="puzzle_completed_label">字谜已完成！</string>
+
+    <!-- keyboard -->
+    <string name="key_a">a</string>
+    <string name="key_b">b</string>
+    <string name="key_c">c</string>
+    <string name="key_d">d</string>
+    <string name="key_e">e</string>
+    <string name="key_f">f</string>
+    <string name="key_g">g</string>
+    <string name="key_h">h</string>
+    <string name="key_i">i</string>
+    <string name="key_j">j</string>
+    <string name="key_k">k</string>
+    <string name="key_l">l</string>
+    <string name="key_m">m</string>
+    <string name="key_n">n</string>
+    <string name="key_o">o</string>
+    <string name="key_p">p</string>
+    <string name="key_q">q</string>
+    <string name="key_r">r</string>
+    <string name="key_s">s</string>
+    <string name="key_t">t</string>
+    <string name="key_u">u</string>
+    <string name="key_v">v</string>
+    <string name="key_w">w</string>
+    <string name="key_x">x</string>
+    <string name="key_y">y</string>
+    <string name="key_z">z</string>
+    <string name="key_space">space</string>
+    <string name="key_delete">delete</string>
+    <string name="key_up">up</string>
+    <string name="key_down">down</string>
+    <string name="key_left">left</string>
+    <string name="key_right">right</string>
+
+    <string name="keyboard_always_show">始终显示</string>
+    <string name="keyboard_show_sparingly">适度显示</string>
+    <string name="keyboard_never_show">永不显示</string>
+</resources>
